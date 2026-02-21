@@ -22,13 +22,15 @@ struct ChildView: View {
             Text("Child View")
                 .font(.headline)
             
-            TextField("Write something", text: $text)
+            TextField("Write something...", text: $text)
+                .font(.subheadline)
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 12)
                         .stroke(Color.gray.opacity(0.5), lineWidth: 1)
                 )
-                .preference(key: TextFieldPreferenceKey.self, value: text)
+                .publishPreference(text)
+
         }
         .padding()
         .background(Color.gray.opacity(0.1))

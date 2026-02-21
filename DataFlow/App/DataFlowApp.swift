@@ -28,6 +28,11 @@ struct DataFlowApp: App {
                         Image(systemName: "key.horizontal.fill")
                         Text("Preference Key")
                     }
+                ForthExampleView()
+                    .tabItem {
+                        Image(systemName: "arrow.left.and.right.square.fill")
+                        Text("Dynamic Width")
+                    }
             }
             .tint(.black)
         }
