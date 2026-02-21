@@ -15,18 +15,18 @@ struct DataFlowApp: App {
             TabView {
                 FirstExampleView()
                     .tabItem {
-                        Image(systemName: "1.circle.fill")
-                        Text("EnvironmentObject")
+                        Image(systemName: "app.badge")
+                        Text("Environment Object")
                     }
                 SecondExampleView()
                     .tabItem {
-                        Image(systemName: "2.circle.fill")
+                        Image(systemName: "mountain.2.fill")
                         Text("Environment")
                     }
                 ParentView()
                     .tabItem {
-                        Image(systemName: "3.circle.fill")
-                        Text("PreferenceKey")
+                        Image(systemName: "key.horizontal.fill")
+                        Text("Preference Key")
                     }
             }
             .tint(.black)

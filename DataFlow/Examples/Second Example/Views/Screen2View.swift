@@ -15,7 +15,7 @@ struct Screen2View: View {
         
         GeometryReader { proxy in
             VStack {
-                Image(systemName: "2.circle")
+                Image(systemName: "2.circle.fill")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 24, height: 24)

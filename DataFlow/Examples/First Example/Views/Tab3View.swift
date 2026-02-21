@@ -15,7 +15,7 @@ struct Tab3View: View {
         
         GeometryReader { proxy in
             VStack {
-                Image(systemName: "3.circle")
+                Image(systemName: "3.circle.fill")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 24, height: 24)
