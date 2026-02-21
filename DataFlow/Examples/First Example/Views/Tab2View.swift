@@ -16,8 +16,10 @@ struct Tab2View: View {
         GeometryReader { proxy in
             VStack {
                 Image(systemName: "2.circle")
-                    .frame(width: 40, height: 40)
-                    .foregroundStyle(.blue)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 24, height: 24)
+                    .foregroundStyle(.red)
                 Text("Tab 2")
                     .font(.headline)
                 Text("Total clicks: \(analytics.totalClick)")

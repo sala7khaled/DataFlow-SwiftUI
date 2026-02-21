@@ -16,14 +16,20 @@ struct DataFlowApp: App {
                 FirstExampleView()
                     .tabItem {
                         Image(systemName: "1.circle.fill")
-                        Text("First Example")
+                        Text("EnvironmentObject")
                     }
                 SecondExampleView()
                     .tabItem {
                         Image(systemName: "2.circle.fill")
-                        Text("Second Example")
+                        Text("Environment")
+                    }
+                ParentView()
+                    .tabItem {
+                        Image(systemName: "3.circle.fill")
+                        Text("PreferenceKey")
                     }
             }
+            .tint(.black)
         }
     }
 }
