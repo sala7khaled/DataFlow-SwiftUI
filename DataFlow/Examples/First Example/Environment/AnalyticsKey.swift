@@ -36,6 +36,6 @@ struct AnalyticsKey: EnvironmentKey {
 extension EnvironmentValues {
     var analytics: Analytics {
         get { self[AnalyticsKey.self] }
-        set { self[AnalyticsKey.self] = newValue } // Comment for read-only (No overriden)
+        set { self[AnalyticsKey.self] = newValue }
     }
 }
