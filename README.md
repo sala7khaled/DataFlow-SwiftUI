@@ -1,9 +1,9 @@
 # DataFlow – SwiftUI Data Communication Examples
-
 DataFlow is a SwiftUI demo project that showcases different techniques for passing data between views using modern SwiftUI patterns.
 
-## App Structure
+<br>
 
+## App Structure
 The application uses a `TabView` with four tabs:
 
 1. **EnvironmentObject**
@@ -11,7 +11,9 @@ The application uses a `TabView` with four tabs:
 3. **PreferenceKey**
 4. **Dynamic Width**
 
----
+<br>
+<br>
+<br>
 
 # 1️⃣ EnvironmentObject Example
 
@@ -35,8 +37,6 @@ analytics.send(tag: "Feature_01")
 - [x] The shared `Analytics` instance updates `totalClick`.
 - [x] UI automatically updates because of `@Published`.
 
-
-
 ### Screenshot:
 <p align="start">
   <img src="Screenshots/obj1.png" width="250">
@@ -46,8 +46,9 @@ analytics.send(tag: "Feature_01")
   <img src="Screenshots/obj3.png" width="250">
 </p>
 
-
----
+<br>
+<br>
+<br>
 
 # 2️⃣ Environment Example
 
@@ -82,7 +83,9 @@ user.log()
   <img src="Screenshots/env2.png" width="250">
 </p>
 
----
+<br>
+<br>
+<br>
 
 # 3️⃣ PreferenceKey Example
 
@@ -116,7 +119,9 @@ TextField("...", text: $text)
   <img src="Screenshots/key2.png" width="250">
 </p>
 
----
+<br>
+<br>
+<br>
 
 # 4️⃣ Dynamic Width Example
 
@@ -147,7 +152,9 @@ struct MaxWidthPreferenceKey: PreferenceKey {
   <img src="Screenshots/dyn1.png" width="250">
 </p>
 
----
+<br>
+<br>
+<br>
 
 # 🎯 Purpose of the Project
 
