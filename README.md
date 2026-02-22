@@ -33,9 +33,9 @@ Sharing observable state across multiple child views using `ObservableObject` an
 ### Screenshot:
 <p align="start">
   <img src="Screenshots/obj1.png" width="260">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <img src="Screenshots/obj2.png" width="260">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <img src="Screenshots/obj3.png" width="260">
 </p>
 
@@ -60,7 +60,7 @@ Passing dependencies down the view hierarchy using a custom `EnvironmentKey`.
 ### Screenshot:
 <p align="start">
   <img src="Screenshots/env1.png" width="260">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <img src="Screenshots/env2.png" width="260">
 </p>
 
@@ -85,7 +85,7 @@ Sending data **from child to parent** (reverse data flow).
 ### Screenshot:
 <p align="start">
   <img src="Screenshots/key1.png" width="260">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <img src="Screenshots/key2.png" width="260">
 </p>
 
