@@ -69,9 +69,9 @@ fileprivate struct CustomTabBar: UIViewRepresentable {
         }
     }
     
-    func updateUIView(_ uiView: UISegmentedControl, context: Context) {
-        guard uiView.selectedSegmentIndex != index else { return }
-        uiView.selectedSegmentIndex = index
+    func updateUIView(_ control: UISegmentedControl, context: Context) {
+        guard control.selectedSegmentIndex != index else { return }
+        control.selectedSegmentIndex = index
     }
     
     func makeCoordinator() -> Coordinator {
