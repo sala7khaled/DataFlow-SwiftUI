@@ -12,6 +12,7 @@ struct DataFlowApp: App {
     
     @State private var activeTab: AppTab = .envObject
     @State private var isExpanded: Bool = false
+    @State private var search: String = ""
     
     var body: some Scene {
         WindowGroup {
@@ -30,6 +31,7 @@ struct DataFlowApp: App {
                 }
             }
             .tint(.primary)
+            .searchable(text: $search)
         }
     }
 }

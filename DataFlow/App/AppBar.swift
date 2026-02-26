@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum AppTab: String, MorphTabProtocol {
+enum AppTab: String {
     case envObject = "Env. Object"
     case environment = "Environment"
     case preferenceKey = "Preference Key"
@@ -33,18 +33,3 @@ enum AppTab: String, MorphTabProtocol {
     }
 
 }
-
-
-//            ZStack(alignment: .bottom) {
-//                Rectangle()
-//                    .foregroundStyle(.clear)
-//                    .overlay {
-//                        activeTab.view
-//                    }
-//                MorphTabBar(activeTab: $activeTab, isExpanded: $isExpanded) {
-//
-//                }
-//                .padding(.horizontal, 20)
-//                .padding(.bottom, 25)
-//            }
-//            .ignoresSafeArea()
